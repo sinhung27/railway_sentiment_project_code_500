@@ -1,0 +1,80 @@
+{
+  "Naive Bayes": {
+    "accuracy": 0.82,
+    "macro_precision": 0.8186274509803922,
+    "macro_recall": 0.8208556149732621,
+    "macro_f1": 0.8196100943247563,
+    "classification_report": {
+      "Tiêu cực": {
+        "precision": 0.75,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.7384615384615385,
+        "support": 33.0
+      },
+      "Trung tính": {
+        "precision": 0.9705882352941176,
+        "recall": 1.0,
+        "f1-score": 0.9850746268656716,
+        "support": 33.0
+      },
+      "Tích cực": {
+        "precision": 0.7352941176470589,
+        "recall": 0.7352941176470589,
+        "f1-score": 0.7352941176470589,
+        "support": 34.0
+      },
+      "accuracy": 0.82,
+      "macro avg": {
+        "precision": 0.8186274509803922,
+        "recall": 0.8208556149732621,
+        "f1-score": 0.8196100943247563,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.8177941176470589,
+        "recall": 0.82,
+        "f1-score": 0.8187669345579793,
+        "support": 100.0
+      }
+    }
+  },
+  "SVM": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8809368191721133,
+    "macro_recall": 0.880273321449792,
+    "macro_f1": 0.8796809602779753,
+    "classification_report": {
+      "Tiêu cực": {
+        "precision": 0.8666666666666667,
+        "recall": 0.7878787878787878,
+        "f1-score": 0.8253968253968254,
+        "support": 33.0
+      },
+      "Trung tính": {
+        "precision": 0.9705882352941176,
+        "recall": 1.0,
+        "f1-score": 0.9850746268656716,
+        "support": 33.0
+      },
+      "Tích cực": {
+        "precision": 0.8055555555555556,
+        "recall": 0.8529411764705882,
+        "f1-score": 0.8285714285714286,
+        "support": 34.0
+      },
+      "accuracy": 0.88,
+      "macro avg": {
+        "precision": 0.8809368191721134,
+        "recall": 0.880273321449792,
+        "f1-score": 0.8796809602779753,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.8801830065359478,
+        "recall": 0.88,
+        "f1-score": 0.8791698649609099,
+        "support": 100.0
+      }
+    }
+  }
+}
